@@ -149,8 +149,8 @@ master3$ cat > /etc/rancher/rke2/config.yaml << HERE
 token: K103043ee68dfecaf979b32a5892257b11c8014fa314a5886160e82f0677e6404e1::server:f213955a6d2e3ccc0596de138cb5c2ec
 server: https://k8s-ha.demo.local:9345
 tls-san:
-- master2
-- master2.demo.local
+- master3
+- master3.demo.local
 - k8s-ha.demo.local
 - 192.168.69.200
 HERE
